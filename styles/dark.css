@@ -3,6 +3,16 @@
   здесь окажутся стили, которые нужно переопределить принудительно,
   переключая тему
 */
+:root .theme_dark {
+  --accent-color: #ff0070;
+  --contrast-bg-color: #ff0070;
+  --contrast-bg-color-rgb: 255, 0, 112;
+  --text-color: #f1b2ce;
+  --bg-color: #000028;
+  --contrast-accent-color: #000028;
+  --title-color: #db00ff;
+  background-image: url(../images/cover-image-dark.png);
+}
 
 .page.theme_dark {
   /* сохраните этот селектор в приведённом виде.
@@ -10,3 +20,12 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+.theme_dark .header__lightbulb-text {
+  display: inline-block;
+}
+
+.theme_dark .decor-circle {
+  display: inline-block;
+}
+
