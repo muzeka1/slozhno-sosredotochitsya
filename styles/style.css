@@ -237,7 +237,7 @@
 
 .footer {
   display: grid;
-  margin-block-start: 50px;
+  margin-block-start: 40px;
   min-height: 100vh;
   padding: 10px;
 }
