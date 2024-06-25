@@ -13,7 +13,6 @@
   --title-color: #db00ff;
   --header-title-margin: 65px;
   --footer-title-margin: 285px;
-  --header-padding: clamp(0.625rem, 0.0286rem + 2.5445vw, 1.25rem);
 }
 
 @media (767px < width < 1024px) {
