@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  font-family: "IBM Plex mono";
+  font-family: "IBM Plex mono", sans-serif;
   font-size: 18px;
   background-image: url(../images/cover-image-dark.png);
   background-position: center;
@@ -89,6 +89,7 @@
 
 .header__theme-menu-button:hover {
   border-color: rgb(var(--contrast-bg-color-rgb), 0.5);
+  cursor: pointer;
 }
 
 .header__theme-menu-button:focus {
