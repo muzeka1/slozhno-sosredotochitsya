@@ -113,7 +113,7 @@
 
 .header__title {
   color: var(--title-color);
-  font-size: var(--logo-size);;
+  font-size: var(--logo-size);
   font-weight: 700;
   line-height: 0.825;
   text-shadow: 4px 4px var(--accent-color);
@@ -268,7 +268,7 @@
     top: 21px;
     box-shadow: 1px -1px var(--contrast-bg-color);
   }
-  
+
   .decorated-zone::after {
     width: 25px;
     height: 25px;
@@ -276,7 +276,7 @@
     bottom: 21px;
     box-shadow: -1px 1px var(--contrast-bg-color);
   }
-  
+
   .header__lightbulb {
     color: var(--accent-color);
     position: absolute;
@@ -364,7 +364,6 @@
     margin-block-start: 60px;
     padding: 20px;
   }
-
 }
 
 @media (width > 1023px) {
