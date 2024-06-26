@@ -29,11 +29,7 @@
     background-image: url(../images/cover-image-light.png);
   }
 
-  .header__lightbulb-text {
-    display: none;
-  }
-
-  .decor-circle {
+  .header__lightbulb {
     display: none;
   }
 }
@@ -42,10 +38,6 @@
   background-image: url(../images/cover-image-light.png);
 }
 
-.theme_light .header__lightbulb-text {
-  display: none;
-}
-
-.theme_light .decor-circle {
+.theme_light .header__lightbulb {
   display: none;
 }
